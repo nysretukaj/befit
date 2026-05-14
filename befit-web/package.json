@@ -1,0 +1,21 @@
+{
+  "name": "befit-gjilan-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Modern responsive one-page website for BeFit Gjilan fitness center in Gjilan, Kosovo.",
+  "scripts": {
+    "start": "npx serve .",
+    "preview": "npx serve ."
+  },
+  "keywords": [
+    "gym",
+    "fitness",
+    "befit",
+    "gjilan",
+    "website"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
+

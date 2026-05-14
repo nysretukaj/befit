@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BeFit Gjilan | Fitness Center</title>
+  <meta name="description" content="BeFit Gjilan - modern fitness center in Gjilan, Kosovo. Bodybuilding, cardio, personal training, and more on Esat Berisha 93." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark">BF</span>
+        <span class="logo-text">
+          <span class="logo-title">BeFit Gjilan</span>
+          <span class="logo-subtitle">Fitness Center</span>
+        </span>
+      </div>
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#about">Rreth nesh</a></li>
+          <li><a href="#services">Shërbimet</a></li>
+          <li><a href="#schedule">Orari</a></li>
+          <li><a href="#pricing">Anëtarësimi</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li><a href="#contact">Kontakti</a></li>
+          <li><a href="#cta" class="btn btn-small btn-outline">Provë falas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="cta">
+      <div class="hero-media" aria-hidden="true">
+        <div class="hero-bg">
+          <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920" alt="" class="hero-bg-img" />
+        </div>
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">Qendër fitnesi • Gjilan, Kosovë</p>
+          <h1>Bëhu më i fortë çdo ditë në BeFit Gjilan</h1>
+          <p class="hero-subtitle">
+            Fitnes modern në Esat Berisha 93 me gjithçka që ju duhet për
+            bodybuilding, kardio dhe stërvitje funksionale.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn">Rezervo provën falas</a>
+            <a href="#pricing" class="btn btn-outline">Shiko anëtarësimet</a>
+          </div>
+          <div class="hero-meta">
+            <div>
+              <span class="meta-label">Orari</span>
+              <span class="meta-value">Hënë – Shtunë · 07:00 – 23:00</span>
+            </div>
+            <div>
+              <span class="meta-label">Adresa</span>
+              <span class="meta-value">Esat Berisha 93, Gjilan</span>
+            </div>
+            <div>
+              <span class="meta-label">Vlerësimi</span>
+              <span class="meta-value">3.5 / 5 në Google</span>
+            </div>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Quick info">
+          <h2>Sot në BeFit</h2>
+          <ul class="status-list">
+            <li>
+              <span>Statusi aktual</span>
+              <span class="status-chip status-closed">Mbyllur</span>
+            </li>
+            <li>
+              <span>Hapet</span>
+              <span>Nesër · 07:00</span>
+            </li>
+            <li>
+              <span>Adresa</span>
+              <span>Esat Berisha 93, Gjilan</span>
+            </li>
+            <li>
+              <span>Telefoni</span>
+              <a href="tel:+38348230240">048 230 240</a>
+            </li>
+          </ul>
+          <button class="btn btn-full" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+            Kontakto tani
+          </button>
+          <p class="small-text">
+            Këshillë: sill një shok/shoqe dhe pyet për seancën e parë falas.
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container split">
+        <div class="text-block">
+          <p class="eyebrow">Rreth BeFit</p>
+          <h2>Fitnesi yt në lagje në Gjilan</h2>
+          <p>
+            BeFit Gjilan është një qendër lokale fitnesi ku njerëz të të gjitha moshave
+            vijnë për t’u stërvitur, për t’u ndier më mirë dhe për të ndërtuar forcë.
+            Nga fillestarët deri te bodybuilder-at me përvojë, komuniteti ynë është
+            miqësor, mbështetës dhe i fokusuar në rezultate reale.
+          </p>
+          <p>
+            I pozicionuar në rrugën Esat Berisha, ofrojmë pajisje të plota për
+            stërvitje me pesha, kardio dhe stërvitje funksionale – plus një atmosferë
+            motivuese që ju bën të ktheheni çdo ditë.
+          </p>
+          <ul class="icon-list">
+            <li>
+              <span class="icon-bullet">✔</span>
+              <span>Fitnes i kompletuar me pesha të lira, makineri dhe zonë kardio</span>
+            </li>
+            <li>
+              <span class="icon-bullet">✔</span>
+              <span>Personal training dhe programe të personalizuara</span>
+            </li>
+            <li>
+              <span class="icon-bullet">✔</span>
+              <span>Anëtarësi fleksibile dhe zbritje për studentë</span>
+            </li>
+          </ul>
+        </div>
+        <div class="image-grid">
+          <div class="image-card" style="background-image: url('photos/foto4.jpg');"></div>
+          <div class="image-card" style="background-image: url('photos/foto5.jpg');"></div>
+          <div class="image-card" style="background-image: url('photos/foto6.jpg');"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section section-muted" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Shërbimet</p>
+          <h2>Gjithçka që ju duhet për stërvitje</h2>
+          <p>Zgjidh mënyrën se si dëshiron të stërvitesh në BeFit Gjilan.</p>
+        </div>
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Bodybuilding & forcë</h3>
+            <p>
+              Gamë e plotë peshash të lira, bankash, rack-esh dhe makinerish force
+              për ndërtim serioz muskujsh dhe rritje force.
+            </p>
+            <ul class="card-list">
+              <li>Power rack dhe banka</li>
+              <li>Hantella dhe shufra</li>
+              <li>Makineri me pllaka dhe kabllo</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Kardio & humbje peshe</h3>
+            <p>
+              Zonë e dedikuar kardio me tapeta, biçikleta dhe më shumë për të
+              djegur kalori dhe për të përmirësuar kondicionin.
+            </p>
+            <ul class="card-list">
+              <li>Tapeta & biçikleta</li>
+              <li>Eliptik & stepper</li>
+              <li>HIIT & stërvitje intervale</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Personal training</h3>
+            <p>
+              Stërvitje 1‑me‑1 për t’ju ndihmuar të arrini qëllimet më shpejt, me
+              plane të personalizuara për humbje peshe, forcë apo performancë.
+            </p>
+            <ul class="card-list">
+              <li>Vlerësim dhe vendosje qëllimesh</li>
+              <li>Plane stërvitjeje të personalizuara</li>
+              <li>Udhëzim bazë për ushqyerjen</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Klasa & grupe të vogla</h3>
+            <p>
+              Stërvitje në grup për më shumë motivim – nga circuit forcë
+              deri te stërvitja funksionale.
+            </p>
+            <ul class="card-list">
+              <li>Stërvitje në grupe të vogla</li>
+              <li>Seanca për core & lëvizshmëri</li>
+              <li>Stërvitje speciale në fundjavë</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Schedule -->
+    <section class="section section-schedule-bg" id="schedule">
+      <div class="schedule-bg-img" aria-hidden="true"></div>
+      <div class="container schedule-content-wrap">
+        <div class="section-heading section-heading-inline">
+          <div>
+            <p class="eyebrow">Orari i punës</p>
+            <h2>Stërvituni kur ju përshtatet</h2>
+          </div>
+          <p>
+            BeFit Gjilan zakonisht është i hapur nga ora 07:00 – 23:00 gjatë javës,
+            me orar pak më të shkurtuar të dielave dhe festave.
+          </p>
+        </div>
+        <div class="schedule-grid">
+          <div class="schedule-table">
+            <div class="schedule-row">
+              <span>E hënë – E shtunë</span>
+              <span>07:00 – 23:00</span>
+            </div>
+            <div class="schedule-row">
+              <span>E diel</span>
+              <span>Pushim</span>
+            </div>
+            <p class="small-text">
+              *Orari mund të ndryshojë në ditët e festave. Shikoni rrjetet tona
+              sociale për përditësimet më të fundit.
+            </p>
+          </div>
+          <div class="cta-box">
+            <h3>Seancë provë falas</h3>
+            <p>
+              Nuk je ende i sigurt? Eja për një seancë të parë falas. Shiko sallën,
+              njihe trajnerët dhe ndje atmosferën.
+            </p>
+            <ul class="card-list">
+              <li>Tur i shkurtër i sallës</li>
+              <li>Stërvitje hyrëse e shkurtër</li>
+              <li>Rekomandim për anëtarësi</li>
+            </ul>
+            <button class="btn btn-full" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+              Kërko provën falas
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section section-muted" id="pricing">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Anëtarësimet</p>
+          <h2>Çmime për femra dhe meshkuj</h2>
+          <p>
+            Çmime reale aktuale të BeFit Gjilan për hyrje ditore, mujore dhe afatgjata.
+          </p>
+        </div>
+        <div class="pricing-grid">
+          <article class="pricing-card">
+            <h3>Hyrje ditore</h3>
+            <p class="price">5 €</p>
+            <p class="price-caption">Ideale për vizitorë</p>
+            <ul class="card-list">
+              <li>Hyrje për një ditë të plotë</li>
+              <li>Përdorim i të gjitha pajisjeve</li>
+              <li>Pa kontratë</li>
+            </ul>
+
+          </article>
+          <article class="pricing-card pricing-card-featured">
+            <div class="tag">Më i kërkuari</div>
+            <h3>Anëtarësi mujore</h3>
+            <p class="price">20 €</p>
+            <p class="price-caption">1 muaj · stërvitje të pakufizuar</p>
+            <ul class="card-list">
+              <li>Hyrje e pakufizuar në fitnes</li>
+              <li>Përdorim i të gjitha zonave</li>
+              
+            </ul>
+           
+          </article>
+          <article class="pricing-card">
+            <h3>Anëtarësi afatgjata</h3>
+            <p class="price">55 € / 3 muaj</p>
+            <p class="price-caption">180 € / 1 vit</p>
+            <ul class="card-list">
+              <li>3 muaj stërvitje të pakufizuar</li>
+              <li>1 vit stërvitje për vetëm 180 €</li>
+              <li>I njëjti çmim për femra dhe meshkuj</li>
+            </ul>
+            
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Galeria</p>
+          <h2>Brenda BeFit Gjilan</h2>
+          <p>
+            Disa pamje nga ambienti dhe pajisjet e BeFit Gjilan.
+          </p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item" style="background-image: url('photos/foto1.jpg');">
+            <span class="sr-only">Foto nga salla e fitnesit</span>
+          </div>
+          <div class="gallery-item" style="background-image: url('photos/foto2.jpg');">
+            <span class="sr-only">Foto nga salla e fitnesit</span>
+          </div>
+          <div class="gallery-item" style="background-image: url('photos/foto3.jpg');">
+            <span class="sr-only">Foto nga salla e fitnesit</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section section-muted" id="testimonials">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Anëtarët</p>
+          <h2>Çfarë thonë njerëzit për BeFit</h2>
+        </div>
+        <div class="cards-grid testimonials-grid">
+          <article class="testimonial-card">
+            <p>
+              “Fitnes lokal shumë i mirë me gjithçka që më duhet. Atmosferë
+              miqësore dhe rrallë pres për pajisje.”
+            </p>
+            <div class="testimonial-meta">
+              <span class="name">Arben</span>
+              <span class="role">Anëtar që nga 2022</span>
+            </div>
+          </article>
+          <article class="testimonial-card">
+            <p>
+              “Vend perfekt për bodybuilding në Gjilan. Pajisje të mira, pesha të
+              rënda dhe trajnerë që vërtet të ndihmojnë.”
+            </p>
+            <div class="testimonial-meta">
+              <span class="name">Blerta</span>
+              <span class="role">Bodybuilding & forcë</span>
+            </div>
+          </article>
+          <article class="testimonial-card">
+            <p>
+              “Kam humbur 10 kg për disa muaj me kombinim kardioje dhe plani
+              nga trajnerët këtu. E rekomandoj shumë.”
+            </p>
+            <div class="testimonial-meta">
+              <span class="name">Luan</span>
+              <span class="role">Humbje peshe & kardio</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-muted" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-block">
+          <div class="section-heading">
+            <p class="eyebrow">Kontakt</p>
+            <h2>Na vizitoni ose na kontaktoni</h2>
+            <p>
+              Na telefononi, na shkruani me email ose na ndiqni në rrjetet sociale.
+            </p>
+          </div>
+          <div class="contact-details">
+            <div>
+              <h3>Adresa</h3>
+              <p>Esat Berisha 93<br />Gjilan, Kosovo</p>
+            </div>
+            <div>
+              <h3>Telefoni</h3>
+              <p><a href="tel:+38348230240">048 230 240</a></p>
+            </div>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:befittfitness@hotmail.com">befittfitness@hotmail.com</a></p>
+            </div>
+            <div>
+              <h3>Rrjetet sociale</h3>
+              <p>
+                <a href="#" target="_blank" rel="noopener">Instagram</a> ·
+                <a href="#" target="_blank" rel="noopener">Facebook</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="map-embed">
+        <iframe
+          title="BeFit Gjilan në Google Maps"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2931.171291620881!2d21.45865!3d42.46325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13547e79e71a0b9d%3A0x0000000000000000!2sEsat%20Berisha%2093%2C%20Gjilan!5e0!3m2!1sen!2s!4v1700000000000"
+          width="100%"
+          height="360"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="logo footer-logo">
+          <span class="logo-mark">BF</span>
+          <span class="logo-text">
+            <span class="logo-title">BeFit Gjilan</span>
+          </span>
+        </div>
+        <p class="footer-copy">
+          &copy; <span id="year"></span> BeFit Gjilan. Të gjitha të drejtat e rezervuara.
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="#top">Kthehu lart</a>
+        <a href="#contact">Kontakti</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
